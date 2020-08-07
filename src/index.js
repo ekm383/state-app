@@ -8,8 +8,8 @@ import counterReducer from './store/reducers/counter'
 import resultReducer from './store/reducers/result'
 
 const rootReducer = combineReducers({
-  ctr: counterReducer,
-  res: resultReducer,
+  ctrr: counterReducer,
+  resr: resultReducer,
 })
 const store = createStore(rootReducer)
 
